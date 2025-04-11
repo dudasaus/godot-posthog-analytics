@@ -60,7 +60,7 @@ an organization. You can create one organization for each Godot project.
 
 - Place the `PostHog` directory in your project's `addons` directory
 - Add `res://addons/Posthog/post_hog.gd` as an
-  [Autoload](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github#downloading-a-repositorys-files)
+  [Autoload](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html)
   with the name `PostHog`
 
 ### posthog.json
@@ -114,7 +114,7 @@ PostHog.capture("event_name", {
 
 If you have something you want recorded with every event, add it to the
 `PostHog.auto_include_properties` Dictionary. **Reminder:** consider any
-compliance requirements before you included indentifiable data.
+compliance requirements before you included identifiable data.
 
 ```gdscript
 PostHog.auto_include_properties["distribution_platform"] = "itchio"
