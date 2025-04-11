@@ -149,12 +149,12 @@ name. Add the insight to your
 
 Creating an insight:
 
-![PostHog Insight Example](.gdignore\assets\godot_posthog_insight_example.png)
+![PostHog Insight Example](.gdignore/assets/godot_posthog_insight_example.png)
 
 Dashboard example:
 
-![PostHog Dashboard Example](.gdignore\assets\godot_posthog_dashboard_example.png)
+![PostHog Dashboard Example](.gdignore/assets/godot_posthog_dashboard_example.png)
 
 ## License
 
-MIT License. See [LICENSE.txt](addons\PostHog\LICENSE.txt)
+MIT License. See [LICENSE.txt](addons/PostHog/LICENSE.txt)
