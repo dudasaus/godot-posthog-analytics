@@ -21,6 +21,7 @@ var auto_include_properties = {}
 @export var include_platform = true
 
 func _ready() -> void:
+	_update_anonymous_events(anonymous_events)
 	_load_post_hog_json()
 	_load_post_hog_user_json()
 	if include_platform:
