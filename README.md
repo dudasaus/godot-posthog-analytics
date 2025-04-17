@@ -1,3 +1,5 @@
+![Header Image](.gdignore/assets/social.png)
+
 # Godot PostHog Analytics
 
 A [Godot](https://godotengine.org/) addon to quickly add
